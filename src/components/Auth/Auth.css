@@ -1,0 +1,18 @@
+.auth-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #05BF00;
+}
+
+.ant-btn-primary {
+  background-color: #b6d2cc;
+  border-color: black;
+}
+
+.ant-btn-primary:hover {
+  background-color: white !important;
+  color: black !important;
+}
