@@ -1,0 +1,36 @@
+.menu-library {
+  width: 25%;
+  overflow-y: auto;
+  height: 100vh;
+  margin-top: 10rem;
+}
+
+.menu-library-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-library-container .menu-library-box {
+  width: 100%;
+  padding: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.menu-library-container .menu-library-box img {
+  width: 100%;
+  object-fit: contain;
+  height: 200px;
+  border-radius: 16px;
+}
+
+.select-category {
+  width: 100%;
+}
+
+.select-category h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}

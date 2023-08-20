@@ -1,0 +1,40 @@
+.left-bar-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 15%;
+  min-height: 100vh;
+  background-color: #9be2de;
+  overflow-x: hidden;
+  position: fixed;
+}
+
+.left-bar-icon {
+  padding: 24px;
+  align-self: flex-start;
+}
+
+.left-bar-menu {
+  width: 100%;
+}
+
+.left-bar-menu > ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.left-bar-menu li {
+  padding: 1rem 1.5rem;
+}
+
+.left-bar-menu li:hover {
+  background-color: #70d0ca;
+  cursor: pointer;
+}
+
+.left-bar-menu .dark-list {
+  background-color: #70d0ca;
+}

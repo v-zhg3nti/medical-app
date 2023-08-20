@@ -1,0 +1,25 @@
+.dashboard-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+}
+
+.components-container {
+  margin-left: 15%;
+  width: 80%;
+  min-height: 100vh;
+}
+.menu-items {
+  width: 20%;
+  min-height: 100vh;
+}
+.selected-component {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+}
