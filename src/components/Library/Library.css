@@ -1,0 +1,188 @@
+.library-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #eaf9ff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.library-header-1 {
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  padding: 0 16px;
+  align-items: center;
+  border-bottom: 1px solid #5084aa;
+}
+
+.library-header-1 > button {
+  width: 200px;
+  height: 40px;
+  background-color: #9900ce;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+}
+
+.library-header-1 > button:hover {
+  background-color: #a400be;
+}
+
+.library-header-1 > span {
+  font-size: 25px;
+}
+
+.library-header-2 {
+  display: flex;
+  width: 80%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  gap: 16px;
+}
+
+.library-header-2 > select {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #0084ce;
+  outline: none;
+  text-align-last: center;
+  border-radius: 30px;
+  background: transparent;
+  padding-right: 27px;
+  color: #242424;
+
+  -webkit-appearance: none; /* Safari and Chrome */
+  -moz-appearance: none; /* Firefox */
+  appearance: none;
+  padding: 8px 12px; /* padding for text and our custom arrow */
+  padding-right: 24px; /* make room for the custom arrow on the right */
+  background-image: url("../../assets/Vector.svg");
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+  background-size: 12px;
+}
+
+.library-header-2 > select:focus {
+  outline: none;
+}
+
+.library-header-3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 31px;
+  align-items: center;
+  width: 100%;
+  padding: 0 27px;
+  margin-bottom: 45px;
+}
+.library-header-3 input {
+  border: none;
+  width: 330px;
+  border-bottom: 1px solid #757272;
+  background-color: #eaf9ff;
+  padding: 0.5rem 0.8rem;
+}
+
+.library-header-3 input:focus {
+  outline: none;
+}
+
+.library-articles {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  background-color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.library-articles::-webkit-scrollbar {
+  width: 10px;
+}
+.library-articles textarea {
+  width: 60%;
+  height: 500px;
+}
+
+.library-articles img {
+  width: 100%;
+  max-width: 478px;
+  height: auto;
+  margin-bottom: 25px;
+  object-fit: contain;
+}
+.textarea::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+}
+
+.textarea::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+}
+
+.textarea::-webkit-scrollbar-thumb {
+  background: #aec9d3; /* color of the scroll thumb */
+  border-radius: 6px; /* roundness of the scroll thumb */
+}
+
+.textarea::-webkit-scrollbar-thumb:hover {
+  background: #aec9d3; /* color of the scroll thumb on hover */
+}
+
+/* Styles for Firefox (from version 64) */
+.textarea {
+  scrollbar-width: thin; /* "auto" or "thin" or "none" */
+  scrollbar-color: #aec9d3; /* thumb and track color */
+}
+.del {
+  width: 213.32px;
+  background-color: #c62020;
+  height: 45px;
+  border-radius: 75px;
+}
+.sub {
+  width: 213.32px;
+  background-color: #19933b;
+  height: 45px;
+  border-radius: 75px;
+}
+
+.image-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-self: center;
+}
+
+.each-library-article {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 32px;
+  border-top: 1px solid #5084aa;
+}
+
+.button-wrapper{
+  margin-top: -4rem;
+  z-index: 4;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 1600px) {
+  .textarea {
+    width: 400px;
+  }
+}
